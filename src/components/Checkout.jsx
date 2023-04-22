@@ -24,7 +24,7 @@ const CheckoutPage =() => {
         </Elements>
 )
     }
-    
+  
 };
 
 function CheckoutForm() {
@@ -33,7 +33,7 @@ function CheckoutForm() {
   const navigate = useNavigate()
   const [searchParams, setSearchParams] = useSearchParams()
   const { product} = useContext(ProductContext);
-
+ 
   const handleSubmit = async (event) => {
     event.preventDefault();
 

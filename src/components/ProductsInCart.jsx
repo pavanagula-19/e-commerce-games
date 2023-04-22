@@ -91,7 +91,7 @@ const ProductsInCart = () => {
                         </MDBFooter>
                     </MDBCard>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <MDBBtn onClick={handleCheckout} color="info" className="mt-3" type="primary">
+                        <MDBBtn onClick= {handleCheckout} color="info" className="mt-3" type="primary">
                             Pay Now
                         </MDBBtn>
                     </div>
